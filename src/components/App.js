@@ -4,10 +4,13 @@ import Header from './Header'
 
 function App() {
   return <div className="App">
-    learn react!
+    <h1>Now</h1>
+    <p className="App-intro">
+      Learn React!
+    </p>
     <Header/>
-    <Article />
-  </div>;
+    <Article/>
+  </div>
 }
 
 export default App;
